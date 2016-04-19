@@ -1,6 +1,6 @@
 # compliance-demo
 
-Version 0.3
+Version 0.5
 
 This Vagrantfile creates a Chef Compliance demo environment using Vagrant. It deploys chef-compliance and configures the server and the nodes.
 
