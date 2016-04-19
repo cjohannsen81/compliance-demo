@@ -1,1 +1,0 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/cjo/compliance-demo","disabled":false},"v-csc-2":{"id":"v-csc-2","guestpath":"/tmp/vagrant-chef/c19bb16a2b5f05755e6e7ba0248458a3/cookbooks","hostpath":"/Users/cjo/compliance-demo/cookbooks","disabled":false}}}
