@@ -11,9 +11,9 @@ Just clone the repository and start is using "vagrant up".
 
 ## Nodes
 
-chef-compliance   192.168.1.10
-chef-node01       192.168.1.11  
-chef-node02       192.168.1.12  
+* chef-compliance   192.168.1.10
+* chef-node01       192.168.1.11  
+* chef-node02       192.168.1.12  
 
 ## Comments
 
