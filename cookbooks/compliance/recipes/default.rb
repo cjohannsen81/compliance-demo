@@ -8,14 +8,6 @@ when "ubuntu"
     notifies :run, resources(:execute => "compliance-download"), :immediately
   end
 
-#  execute 'compliance-install' do
-#    command 'sudo apt-get install chef-compliance=0.15.13-1'
-#  end
-
-#  package "update-notifier-common" do
-#    notifies :run, resources(:execute => "compliance-install"), :immediately
-#  end
-
   execute 'compliance-config' do
    command 'chef-compliance-ctl reconfigure --accept-license'
   end
