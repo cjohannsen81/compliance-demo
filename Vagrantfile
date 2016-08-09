@@ -9,9 +9,6 @@ Vagrant.configure("2") do |config|
     comp.vm.provision "chef_solo" do |chef|
       chef.version = "12.10.24"
       chef.add_recipe "compliance"
-    end
-    comp.vm.provision "chef_solo" do |chef|
-      chef.version = "12.10.24"
       chef.add_recipe "config"
     end
     comp.vm.provider :virtualbox do |vb|
