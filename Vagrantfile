@@ -7,9 +7,8 @@ Vagrant.configure("2") do |config|
     comp.vm.network "private_network", ip: "192.168.1.10",
         virtualbox__intnet: true
     comp.vm.provision "chef_solo" do |chef|
+      chef.version = "12.10.24"
       chef.add_recipe "compliance"
-    end
-    comp.vm.provision "chef_solo" do |chef|
       chef.add_recipe "config"
     end
     comp.vm.provider :virtualbox do |vb|
